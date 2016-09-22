@@ -15,6 +15,14 @@
 		CA49480A1D947D6E00A0992E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA4948081D947D6E00A0992E /* Main.storyboard */; };
 		CA49480C1D947D6E00A0992E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA49480B1D947D6E00A0992E /* Assets.xcassets */; };
 		CA49480F1D947D6E00A0992E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA49480D1D947D6E00A0992E /* LaunchScreen.storyboard */; };
+		CA4948171D947E7800A0992E /* MSButtonNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4948161D947E7800A0992E /* MSButtonNode.swift */; };
+		CA4948191D947E8400A0992E /* GameEffects.sks in Resources */ = {isa = PBXBuildFile; fileRef = CA4948181D947E8400A0992E /* GameEffects.sks */; };
+		CA49481B1D947E9500A0992E /* Hero.sks in Resources */ = {isa = PBXBuildFile; fileRef = CA49481A1D947E9500A0992E /* Hero.sks */; };
+		CA49481D1D947EF300A0992E /* CGFloat+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA49481C1D947EF300A0992E /* CGFloat+Extensions.swift */; };
+		CA49481F1D947F2900A0992E /* HighScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA49481E1D947F2900A0992E /* HighScore.swift */; };
+		CA4948211D947F8800A0992E /* Obstacle.sks in Resources */ = {isa = PBXBuildFile; fileRef = CA4948201D947F8800A0992E /* Obstacle.sks */; };
+		CA4948251D947FB300A0992E /* sfx_flap.caf in Resources */ = {isa = PBXBuildFile; fileRef = CA4948231D947FB300A0992E /* sfx_flap.caf */; };
+		CA4948261D947FB300A0992E /* sfx_goal.caf in Resources */ = {isa = PBXBuildFile; fileRef = CA4948241D947FB300A0992E /* sfx_goal.caf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +36,14 @@
 		CA49480B1D947D6E00A0992E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA49480E1D947D6E00A0992E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA4948101D947D6E00A0992E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA4948161D947E7800A0992E /* MSButtonNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSButtonNode.swift; sourceTree = "<group>"; };
+		CA4948181D947E8400A0992E /* GameEffects.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameEffects.sks; sourceTree = "<group>"; };
+		CA49481A1D947E9500A0992E /* Hero.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Hero.sks; sourceTree = "<group>"; };
+		CA49481C1D947EF300A0992E /* CGFloat+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extensions.swift"; sourceTree = "<group>"; };
+		CA49481E1D947F2900A0992E /* HighScore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HighScore.swift; sourceTree = "<group>"; };
+		CA4948201D947F8800A0992E /* Obstacle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Obstacle.sks; sourceTree = "<group>"; };
+		CA4948231D947FB300A0992E /* sfx_flap.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sfx_flap.caf; sourceTree = "<group>"; };
+		CA4948241D947FB300A0992E /* sfx_goal.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sfx_goal.caf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +60,9 @@
 		CA4947F21D947D6E00A0992E = {
 			isa = PBXGroup;
 			children = (
+				CA4948161D947E7800A0992E /* MSButtonNode.swift */,
+				CA4948181D947E8400A0992E /* GameEffects.sks */,
+				CA49481A1D947E9500A0992E /* Hero.sks */,
 				CA4947FD1D947D6E00A0992E /* HoppyBunnyV3 */,
 				CA4947FC1D947D6E00A0992E /* Products */,
 			);
@@ -64,13 +83,26 @@
 				CA4948001D947D6E00A0992E /* GameScene.sks */,
 				CA4948021D947D6E00A0992E /* Actions.sks */,
 				CA4948041D947D6E00A0992E /* GameScene.swift */,
+				CA4948201D947F8800A0992E /* Obstacle.sks */,
 				CA4948061D947D6E00A0992E /* GameViewController.swift */,
+				CA49481E1D947F2900A0992E /* HighScore.swift */,
 				CA4948081D947D6E00A0992E /* Main.storyboard */,
 				CA49480B1D947D6E00A0992E /* Assets.xcassets */,
+				CA4948221D947FB300A0992E /* SFX */,
 				CA49480D1D947D6E00A0992E /* LaunchScreen.storyboard */,
 				CA4948101D947D6E00A0992E /* Info.plist */,
+				CA49481C1D947EF300A0992E /* CGFloat+Extensions.swift */,
 			);
 			path = HoppyBunnyV3;
+			sourceTree = "<group>";
+		};
+		CA4948221D947FB300A0992E /* SFX */ = {
+			isa = PBXGroup;
+			children = (
+				CA4948231D947FB300A0992E /* sfx_flap.caf */,
+				CA4948241D947FB300A0992E /* sfx_goal.caf */,
+			);
+			path = SFX;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,8 +164,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA4948211D947F8800A0992E /* Obstacle.sks in Resources */,
+				CA4948261D947FB300A0992E /* sfx_goal.caf in Resources */,
+				CA4948191D947E8400A0992E /* GameEffects.sks in Resources */,
+				CA4948251D947FB300A0992E /* sfx_flap.caf in Resources */,
 				CA49480A1D947D6E00A0992E /* Main.storyboard in Resources */,
 				CA4948011D947D6E00A0992E /* GameScene.sks in Resources */,
+				CA49481B1D947E9500A0992E /* Hero.sks in Resources */,
 				CA49480C1D947D6E00A0992E /* Assets.xcassets in Resources */,
 				CA49480F1D947D6E00A0992E /* LaunchScreen.storyboard in Resources */,
 				CA4948031D947D6E00A0992E /* Actions.sks in Resources */,
@@ -148,8 +185,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA4948051D947D6E00A0992E /* GameScene.swift in Sources */,
+				CA49481D1D947EF300A0992E /* CGFloat+Extensions.swift in Sources */,
 				CA4948071D947D6E00A0992E /* GameViewController.swift in Sources */,
 				CA4947FF1D947D6E00A0992E /* AppDelegate.swift in Sources */,
+				CA49481F1D947F2900A0992E /* HighScore.swift in Sources */,
+				CA4948171D947E7800A0992E /* MSButtonNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
